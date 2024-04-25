@@ -63,7 +63,7 @@ def pushImage(dockerUsername, dockerPassword, imageName) {
 
 // Usage Example
 def dockerUsername = "jowe2114"
-def dockerPassword = "Umar212121"
+def dockerPassword = ""
 def imageName = "Jenkins_project"
 
 pullImage(dockerUsername, dockerPassword, imageName)
